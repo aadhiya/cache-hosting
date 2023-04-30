@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Audio Caching Example</title>
+    <script>
+      function playAudio() {
+        const audioElement = document.createElement('audio');
+        audioElement.src = '/audio.mp3';
+        audioElement.play();
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Audio Caching Example</h1>
+    <button onclick="playAudio()">Play Audio</button>
+  </body>
+</html>
