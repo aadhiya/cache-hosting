@@ -3,7 +3,7 @@ const CACHE_NAME = 'audio-cache';
 self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open(CACHE_NAME).then(function(cache) {
-      return cache.addAll(['/audio.mp3']);
+      return cache.addAll(['./elon.mp3']);
     })
   );
 });
